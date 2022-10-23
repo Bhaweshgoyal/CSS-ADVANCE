@@ -1,0 +1,56 @@
+#top {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}
+.searchBox {
+  width: 86%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+#SearchBtn {
+  color: burlywood;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#SearchBtn:hover {
+  transform: scale(1.03);
+  transition: 0.7s;
+  background-color: burlywood;
+  color: black;
+}
+.boder {
+  border: 10px;
+}
+.TODO {
+  width: 86%;
+  border-radius: 10px;
+  border: 1px;
+}
+.ml {
+  margin-left: 10px;
+}
+.TODO:hover {
+  transform: scale(1.03);
+  border: 3px solid red;
+}
+.addTodo {
+  width: 86%;
+  border-radius: 1000px;
+}
+#addbtn {
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+}
+#addbtn:hover {
+  transition: 0.7s;
+  transform: scale(1.2);
+}
+#deletebtn {
+    color: white;
+    font-weight: bold;
+}
+#deletebtn:hover{
+    transform: scale(1.2);
+}
