@@ -1,0 +1,25 @@
+
+.login-wrapper{
+    width: 500px;
+    margin: 50px auto;
+
+}
+.login-wrapper #loginbtn , #Signupbtn {
+    width : 300px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+#showSignupBtn{
+    cursor: pointer;
+}
+#showLoginBtn{
+    cursor: pointer;
+}
+#loginUserName,#SignupUserName{
+    
+    margin-bottom : 10px;
+}
+#Email{
+    margin-top: 10px;
+}
+
