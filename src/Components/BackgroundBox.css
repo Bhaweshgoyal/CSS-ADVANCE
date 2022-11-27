@@ -1,0 +1,35 @@
+
+button{
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.BackgroundBox{
+    /* display: flex; */
+    /* align-items: center; */
+    background-color: white;
+    flex-direction: row;
+    margin-top: 30vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* align-content: center; */
+    justify-content: center;
+}
+.divBox{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.lang{
+    margin: auto;
+    font-weight:bolder ;
+}
+.heading{
+    color: lightgreen;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
