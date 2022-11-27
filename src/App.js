@@ -1,17 +1,11 @@
 
 import './App.css';
-import { BackgroundBox } from './Components/BackgroundBox';
-
+import TicTacToe from './Components/TicTaeToe/TicTacToe';
 function App() {
   return (
-      <>
-      <div>
-        <BackgroundBox/>
-       
-      </div>
-
-
-      </>
+    <div className="App">
+    {/* <TicTacToe/> */}
+    </div>
   );
 }
 
